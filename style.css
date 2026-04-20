@@ -24,6 +24,10 @@ body {
   height: 20px;
 }
 
+.contacts {
+  display: block;
+}
+
 #mission-dog {
   float:right;
   padding-left: 30px;
