@@ -1,3 +1,6 @@
+
+/* applies to entire website =================================================================== */
+
 html {
   background-color: rgba(255, 255, 255, 0.637);
   background-blend-mode: lighten;
@@ -9,49 +12,7 @@ body {
     margin: 0;
 }
 
-.title {
-  padding-top: 80px;
-  padding-bottom: 80px;
-  text-align: center;
-}
-
-.socials {
-  font-size:20px;
-  margin-bottom: 10px;
-}
-
-.site {
-  height: 20px;
-}
-
-.contacts {
-  display: block;
-}
-
-#mission-dog {
-  float:right;
-  padding-left: 30px;
-  margin-right: 0;
-  border-radius: 20px;
-}
-
-/* specific texts */
-
-#mission-section {
-  background-color: #AF8B87;
-  color: #FFE0ED;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 20px;
-  height: 300px;
-  font-size: 20px;
-}
-
-#mission-image-text {
-  display: flex;
-}
-
-/* top menu css ==================== */
+/* top menu css, for entire website! =================================================================== */
 
 .topnav {
   background-color: #FFBFCC;
@@ -88,3 +49,72 @@ body {
 .main {
 margin-top: 50px;
 }
+
+
+.title {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+/* Home page =================================================================== */
+
+#mission-dog {
+  float:right;
+  padding-left: 30px;
+  margin-right: 0;
+  border-radius: 20px;
+}
+
+/* specific texts */
+
+#mission-section {
+  background-color: #AF8B87;
+  color: #FFE0ED;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  height: 300px;
+  font-size: 20px;
+}
+
+#mission-image-text {
+  display: flex;
+}
+
+/* Contact page =================================================================== */
+
+.socials {
+  font-size:20px;
+  margin-bottom: 10px;
+}
+
+.site {
+  height: 20px;
+}
+
+.contacts {
+  display: block;
+  margin: 0 auto;
+  width: 40vw;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+button {
+  border-radius: 0%;
+  border: 0;
+  color: #AF8B87;
+  background-color: #FFBFCC;
+}
+
+button:hover {
+  background-color: #F1DCCD;
+}
+
+.h3 {
+  text-align: center;
+  color: #AF8B87;
+}
+
