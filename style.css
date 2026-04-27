@@ -120,18 +120,14 @@ button:hover {
 
 /* about page =================================================================== */
 
-.card {
-  margin: auto;
-  background-color: #FFE0ED;
-  width: 40%;
-  margin-left: 1%;
-  margin-right: 1%;
-}
-
-.container {
-  padding: 2px 16px;
-}
-
-.cards {
+.tayvee {
   display: flex;
+}
+
+.tayveepic {
+  margin-left: 0%;
+}
+
+.tayveewords {
+  margin-right: 10px;
 }
