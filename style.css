@@ -14,120 +14,33 @@ body {
 
 /* top menu css, for entire website! =================================================================== */
 
-.topnav {
-  background-color: #FFBFCC;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   overflow: hidden;
+  background-color: #FFBFCC;
   position: fixed;
   top: 0;
-  width:100%;
-  padding-left: 0px;
+  width: 100%;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
 }
 
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
+li a {
   display: block;
   color: #AF8B87;
   text-align: center;
-  padding: 14px 92px;
+  padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
 }
 
-/* Change the color of links on hover */
-.topnav a:hover {
+li a:hover {
   background-color: #F1DCCD;
   color: #AF8B87;
 }
 
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #AF8B87;
-  color: #F1DCCD;
-}
-
-.main {
-margin-top: 50px;
-}
-
-
-.title {
-  padding-top: 80px;
-  padding-bottom: 40px;
-  text-align: center;
-}
-
-/* Home page =================================================================== */
-
-#mission-dog {
-  float:right;
-  padding-left: 30px;
-  margin-right: 0;
-  border-radius: 20px;
-}
-
-/* specific texts */
-
-#mission-section {
-  background-color: #AF8B87;
-  color: #FFE0ED;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 20px;
-  height: 300px;
-  font-size: 20px;
-}
-
-#mission-image-text {
-  display: flex;
-}
-
-/* Contact page =================================================================== */
-
-.socials {
-  font-size:20px;
-  margin-bottom: 10px;
-}
-
-.site {
-  height: 20px;
-}
-
-.contacts {
-  display: block;
-  margin: 0 auto;
-  width: 40vw;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-bottom: 10px;
-}
-
-button {
-  border-radius: 0%;
-  border: 0;
-  color: #AF8B87;
-  background-color: #FFBFCC;
-}
-
-button:hover {
-  background-color: #F1DCCD;
-}
-
-.h3 {
-  text-align: center;
-  color: #AF8B87;
-}
-
-/* about page =================================================================== */
-
-.tayvee {
-  display: flex;
-}
-
-.tayveepic {
-  margin-left: 0%;
-}
-
-.tayveewords {
-  margin-right: 10px;
+h1 {
+  padding-top: 5%;
 }
