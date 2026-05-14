@@ -5,12 +5,20 @@
     <title>The Painted Paw Print</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <style>
+
+      h1, h3 {
+        text-align: center;
+        color: #AF8B87;
+      }
+
+    .whatWeDo-text
       
       .tayvee, .zoe{
         display: flex;
         background-color: #AF8B87;
         color: #FFE0ED;
         height: 50vh;
+        max-height: fit-content;
       }
 
       .louise, .olivia {
@@ -29,11 +37,57 @@
         padding-left: 20px;
         padding-right: 20px;
         text-align: justify;
+        font-size: 15px;
       }
 
-      .name-roles {
+      .name-roles-zoe, .name-roles-tayvee {
+        text-align: left;
+        padding-left: 20px;
+      }
+
+      .name-roles-louise, .name-roles-olivia {
         text-align: right;
         padding-right: 20px;
+      }
+
+      button {
+        border-radius: 0;
+        border: 0;
+        font-size: 15px;
+      }
+
+      .brown-btn {
+        color: #FFE0ED;
+        background-color: #AF8B87;
+      }
+
+      .pink-btn {
+        background-color: #FFE0ED;
+        color: #AF8B87;
+      }
+
+      button:hover {
+        background-color: #F1DCCD;
+        color: #AF8B87;
+      }
+
+      .socials {
+        margin-bottom: 5px;
+      }
+
+      .site {
+        height: 15px;
+        padding-right: 2%;
+      }
+
+      .contacts {
+        display: block;
+        margin: 0 auto;
+        height: fit-content;
+        width: 30%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 3%;
       }
 
     </style>
@@ -57,11 +111,16 @@
       What We do
     </h3>
 
+    <p class="whatWeDo-text">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacus nulla, elementum ac ex vel, imperdiet varius nisl. Maecenas a volutpat mi. Nam tincidunt rhoncus dictum. Donec fermentum lectus tortor, nec ultricies purus euismod sed. <br>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacus nulla, elementum ac ex vel, imperdiet varius nisl. Maecenas a volutpat mi. Nam tincidunt rhoncus dictum. Donec fermentum lectus tortor, nec ultricies purus euismod sed.
+    </p>
+
     <h3>
       Our team:
     </h3>
 
-    <p>
+    <p class="team-text">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacus nulla, elementum ac ex vel, imperdiet varius nisl. Maecenas a volutpat mi. Nam tincidunt rhoncus dictum. Donec fermentum lectus tortor, nec ultricies purus euismod sed.
     </p>
 
@@ -71,20 +130,31 @@
           <img src="https://hips.hearstapps.com/hmg-prod/images/cute-cat-photos-1593441022.jpg?crop=0.670xw:1.00xh;0.167xw,0&resize=640:*" alt="tayvee stand in picture" width="50%" class="tayvee-img"> 
         </div>
         <div class="text">
-          <div class="name-roles">
+          <div class="name-roles-tayvee">
             <h2 class="name">Tayvee Reeder</h2>
             <h3 class="roles">President, Founder</h3>
           </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacus nulla, elementum ac ex vel, imperdiet varius nisl. Maecenas a volutpat mi. Nam tincidunt rhoncus dictum. Donec fermentum lectus tortor, nec ultricies purus euismod sed. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean eget ligula blandit, dictum elit sit amet, pretium est. Aenean enim felis, tincidunt ac condimentum et, luctus nec massa. Duis ullamcorper metus sed justo laoreet bibendum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacus nulla, elementum ac ex vel, imperdiet varius nisl. Maecenas a volutpat mi. Nam tincidunt rhoncus dictum. Donec fermentum lectus tortor, nec ultricies purus euismod sed. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean eget ligula blandit, dictum elit sit amet, pretium est. Aenean enim felis, tincidunt ac condimentum et, luctus nec massa. Duis ullamcorper metus sed justo laoreet bibendum.</p></div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacus nulla, elementum ac ex vel, imperdiet varius nisl. Maecenas a volutpat mi. Nam tincidunt rhoncus dictum. Donec fermentum lectus tortor, nec ultricies purus euismod sed. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean eget ligula blandit, dictum elit sit amet, pretium est. Aenean enim felis, tincidunt ac condimentum et, luctus nec massa. Duis ullamcorper metus sed justo laoreet bibendum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacus nulla, elementum ac ex vel, imperdiet varius nisl. Maecenas a volutpat mi. Nam tincidunt rhoncus dictum. Donec fermentum lectus tortor, nec ultricies purus euismod sed. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean eget ligula blandit, dictum elit sit amet, pretium est. Aenean enim felis, tincidunt ac condimentum et, luctus nec massa. Duis ullamcorper metus sed justo laoreet bibendum
+          </p>
+          <button class="contacts brown-btn" id="gmailButton">
+            <img src="https://www.iconsdb.com/icons/preview/white/mail-xxl.png" class="site"> <span class="socials">tayveereeder@gmail.com</span>
+          </button>
+        </div>
       </div>
       
       <div class="louise">
         <div class="text">
-          <div class="name-roles">
+          <div class="name-roles-louise">
             <h2 class="name">Louise Wynne</h2>
             <h3 class="roles">Webmaster, Art Director</h3>
           </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacus nulla, elementum ac ex vel, imperdiet varius nisl. Maecenas a volutpat mi. Nam tincidunt rhoncus dictum. Donec fermentum lectus tortor, nec ultricies purus euismod sed. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean eget ligula blandit, dictum elit sit amet, pretium est. Aenean enim felis, tincidunt ac condimentum et, luctus nec massa. Duis ullamcorper metus sed justo laoreet bibendum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacus nulla, elementum ac ex vel, imperdiet varius nisl. Maecenas a volutpat mi. Nam tincidunt rhoncus dictum. Donec fermentum lectus tortor, nec ultricies purus euismod sed. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean eget ligula blandit, dictum elit sit amet, pretium est. Aenean enim felis, tincidunt ac condimentum et, luctus nec massa. Duis ullamcorper metus sed justo laoreet bibendum.</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacus nulla, elementum ac ex vel, imperdiet varius nisl. Maecenas a volutpat mi. Nam tincidunt rhoncus dictum. Donec fermentum lectus tortor, nec ultricies purus euismod sed. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean eget ligula blandit, dictum elit sit amet, pretium est. Aenean enim felis, tincidunt ac condimentum et, luctus nec massa. Duis ullamcorper metus sed justo laoreet bibendum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacus nulla, elementum ac ex vel, imperdiet varius nisl. Maecenas a volutpat mi. Nam tincidunt rhoncus dictum. Donec fermentum lectus tortor, nec ultricies purus euismod sed. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean eget ligula blandit, dictum elit sit amet, pretium est. Aenean enim felis, tincidunt ac condimentum et, luctus nec massa. Duis ullamcorper metus sed justo laoreet bibendum.
+            </p>
+            <button class="contacts pink-btn" id="gmailButton">
+              <img src="https://www.iconsdb.com/icons/preview/white/mail-xxl.png" class="site"> <span class="socials">louise.raisa9@gmail.com</span>
+            </button>
           </div>
           <div>
             <img src="https://hips.hearstapps.com/hmg-prod/images/cute-cat-photos-1593441022.jpg?crop=0.670xw:1.00xh;0.167xw,0&resize=640:*" alt="louise stand in picture" width="50%" class="louise-img"> 
@@ -96,20 +166,31 @@
           <img src="https://hips.hearstapps.com/hmg-prod/images/cute-cat-photos-1593441022.jpg?crop=0.670xw:1.00xh;0.167xw,0&resize=640:*" alt="zoe stand in picture" width="50%" class="zoe-img"> 
         </div>
         <div class="text">
-          <div class="name-roles">
-            <h2 class="name">Tayvee Reeder</h2>
-            <h3 class="roles">President, Founder</h3>
+          <div class="name-roles-zoe">
+            <h2 class="name">Zoë Barret-Kahn</h2>
+            <h3 class="roles">Outreach Coordinator</h3>
           </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacus nulla, elementum ac ex vel, imperdiet varius nisl. Maecenas a volutpat mi. Nam tincidunt rhoncus dictum. Donec fermentum lectus tortor, nec ultricies purus euismod sed. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean eget ligula blandit, dictum elit sit amet, pretium est. Aenean enim felis, tincidunt ac condimentum et, luctus nec massa. Duis ullamcorper metus sed justo laoreet bibendum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacus nulla, elementum ac ex vel, imperdiet varius nisl. Maecenas a volutpat mi. Nam tincidunt rhoncus dictum. Donec fermentum lectus tortor, nec ultricies purus euismod sed. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean eget ligula blandit, dictum elit sit amet, pretium est. Aenean enim felis, tincidunt ac condimentum et, luctus nec massa. Duis ullamcorper metus sed justo laoreet bibendum.</p></div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacus nulla, elementum ac ex vel, imperdiet varius nisl. Maecenas a volutpat mi. Nam tincidunt rhoncus dictum. Donec fermentum lectus tortor, nec ultricies purus euismod sed. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean eget ligula blandit, dictum elit sit amet, pretium est. Aenean enim felis, tincidunt ac condimentum et, luctus nec massa. Duis ullamcorper metus sed justo laoreet bibendum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacus nulla, elementum ac ex vel, imperdiet varius nisl. Maecenas a volutpat mi. Nam tincidunt rhoncus dictum. Donec fermentum lectus tortor, nec ultricies purus euismod sed. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean eget ligula blandit, dictum elit sit amet, pretium est. Aenean enim felis, tincidunt ac condimentum et, luctus nec massa. Duis ullamcorper metus sed justo laoreet bibendum.
+          </p>
+          <button class="contacts brown-btn" id="gmailButton">
+            <img src="https://www.iconsdb.com/icons/preview/white/mail-xxl.png" class="site"> <span class="socials">zoebarretkahnemail...</span>
+          </button>
+        </div>
       </div>
 
       <div class="olivia">
         <div class="text">
-          <div class="name-roles">
+          <div class="name-roles-olivia">
             <h2 class="name">Olivia Giannationo</h2>
             <h3 class="roles">Social Media Manager</h3>
           </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacus nulla, elementum ac ex vel, imperdiet varius nisl. Maecenas a volutpat mi. Nam tincidunt rhoncus dictum. Donec fermentum lectus tortor, nec ultricies purus euismod sed. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean eget ligula blandit, dictum elit sit amet, pretium est. Aenean enim felis, tincidunt ac condimentum et, luctus nec massa. Duis ullamcorper metus sed justo laoreet bibendum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacus nulla, elementum ac ex vel, imperdiet varius nisl. Maecenas a volutpat mi. Nam tincidunt rhoncus dictum. Donec fermentum lectus tortor, nec ultricies purus euismod sed. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean eget ligula blandit, dictum elit sit amet, pretium est. Aenean enim felis, tincidunt ac condimentum et, luctus nec massa. Duis ullamcorper metus sed justo laoreet bibendum.</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacus nulla, elementum ac ex vel, imperdiet varius nisl. Maecenas a volutpat mi. Nam tincidunt rhoncus dictum. Donec fermentum lectus tortor, nec ultricies purus euismod sed. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean eget ligula blandit, dictum elit sit amet, pretium est. Aenean enim felis, tincidunt ac condimentum et, luctus nec massa. Duis ullamcorper metus sed justo laoreet bibendum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacus nulla, elementum ac ex vel, imperdiet varius nisl. Maecenas a volutpat mi. Nam tincidunt rhoncus dictum. Donec fermentum lectus tortor, nec ultricies purus euismod sed. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean eget ligula blandit, dictum elit sit amet, pretium est. Aenean enim felis, tincidunt ac condimentum et, luctus nec massa. Duis ullamcorper metus sed justo laoreet bibendum.
+            </p>
+            <button class="contacts pink-btn" id="gmailButton">
+              <img src="https://www.iconsdb.com/icons/preview/white/mail-xxl.png" class="site"> <span class="socials">oliviagemailfind@gmail.com</span>
+            </button>
           </div>
           <div>
           <img src="https://hips.hearstapps.com/hmg-prod/images/cute-cat-photos-1593441022.jpg?crop=0.670xw:1.00xh;0.167xw,0&resize=640:*" alt="olivia stand in picture" width="50%" class="olivia-img"> 
